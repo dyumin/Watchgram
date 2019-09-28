@@ -1,5 +1,4 @@
 # copied from https://github.com/TizenTeam/vlc-tizen/blob/master/.gitignore 
-/.cproject
 /.checkers
 /.rds_delta
 /.sdk_delta.info
