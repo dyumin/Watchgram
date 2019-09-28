@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns="http://tizen.org/ns/packages" api-version="4.0"
-	package="com.dyumin.watchgram" version="1.0.0">
-	<profile name="wearable" />
-	<ui-application appid="com.dyumin.watchgram" exec="watchgram"
-		type="capp" multiple="false" taskmanage="true" nodisplay="false">
-		<icon>watchgram.png</icon>
-		<label>watchgram</label>
-	</ui-application>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="4.0" package="com.dyumin.watchgram" version="1.0.0">
+    <profile name="wearable"/>
+    <ui-application appid="com.dyumin.watchgram" exec="watchgram" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>watchgram</label>
+        <icon>watchgram.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+    </privileges>
 </manifest>

@@ -1,6 +1,10 @@
 #ifndef __APP_MAIN_H__
 #define __APP_MAIN_H__
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #define ENABLE_UIB_DELOG
 
 #include "g_inc_uib.h"
@@ -49,6 +53,10 @@ void uib_app_destroy(app_data *app);
 int uib_app_run(app_data *app, int argc, char **argv);
 
 void app_get_resource(const char *edj_file_in, char *edj_path_out, int edj_path_max);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* __APP_MAIN_H__ */
 
