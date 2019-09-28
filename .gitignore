@@ -17,3 +17,7 @@
 *.tmp
 *~
 res/edje/*.edj
+
+
+# this project
+/.package-stamp
