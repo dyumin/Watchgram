@@ -21,3 +21,5 @@ res/edje/*.edj
 # this project
 /.package-stamp
 .DS_Store
+
+.idea
